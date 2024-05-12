@@ -89,7 +89,7 @@ export default function Home() {
 
     function submit(){
         try{
-            if(document.getElementById('name').value === '' || document.getElementById('nomor').value === '', document.getElementById('kelas').value === ''){
+            if(!document.getElementById('name').value === '' || !document.getElementById('nomor').value === '', !document.getElementById('kelas').value === ''){
                 return alert('Data Tidak Boleh Kosong')
             }
             axios.get(`https://osissmankedo-api.vercel.app/addData/${document.getElementById('name').value}/${document.getElementById('nomor').value}/${document.getElementById('kelas').value}`)
