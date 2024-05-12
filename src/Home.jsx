@@ -66,6 +66,10 @@ const Container = styled.div`
             font-size: 20px;
             width: 80%;
         }
+        p{
+          width: 50%;
+          text-align: center;
+        }
         .__boxMain{
             width: 80%;
             .__boxMain{
@@ -109,7 +113,7 @@ export default function Home() {
     }
     return (
         <Container>
-        <h1>Input Data For BOT Whatsapp Sekbid TIK</h1>
+        <h1>Input Data Untuk BOT Whatsapp Sekbid TIK</h1>
         <div className="__boxMain">
             <div className="__box">
                 <label htmlFor="name">Nama :</label>
@@ -147,7 +151,7 @@ export default function Home() {
                 <button onClick={() => submit()}>Submit</button>
             </div>
         </div>
-        <p>Silahkan Hubungi <a href="https://wa.me/083806211924">083806211924 (Agus Maulana)</a>/ <a href="https://wa.me/0838317146590">083817146590 (Nevo)</a> jika ada masalah</p>
+        <p>Silahkan Hubungi <a href="https://wa.me/+6283806211924">083806211924 (Agus Maulana)</a>/ <a href="https://wa.me/+62838317146590">083817146590 (Nevo)</a> jika ada masalah</p>
         </Container>
     )
     }
