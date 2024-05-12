@@ -151,7 +151,7 @@ export default function Home() {
                 <button onClick={() => submit()}>Submit</button>
             </div>
         </div>
-        <p>Silahkan Hubungi <a href="https://wa.me/+6283806211924">083806211924 (Agus Maulana)</a>/ <a href="https://wa.me/+62838317146590">083817146590 (Nevo)</a> jika ada masalah</p>
+        <p>Silahkan Hubungi <a href="https://wa.me/+6283806211924">083806211924 (Agus Maulana)</a>/ <a href="https://wa.me/+6283817146590">083817146590 (Nevo)</a> jika ada masalah</p>
         </Container>
     )
     }
