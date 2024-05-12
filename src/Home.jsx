@@ -99,14 +99,12 @@ export default function Home() {
                     return
                 }
             }).catch(err => {
-                console.log(err)
                 alert("Gagal Save Data")
                 return
             })
             alert('Data Berhasil Diinputkan')
         } catch(err){
             alert('Data Gagal Diinputkan')
-            console.log(err)
         }
     }
     return (
